@@ -23,12 +23,12 @@ html {
 
 .content  
 {  
-    width:600px;
-    height:250px;
-    position:absolute;
-    top:60%;
-    left:0px;
-    z-index:1;
+	width:600px;
+	height:250px;
+	position:absolute;
+	top:60%;
+	left:0px;
+	z-index:1;
 } 
 
 ul {
