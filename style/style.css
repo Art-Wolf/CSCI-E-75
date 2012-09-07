@@ -9,7 +9,6 @@ html {
 #container .transparency  {  
 	opacity:0.8;
 	filter:alpha(opacity=80);  
-	-moz-opacity:0.8;  
 	background-color:#cccccc;
 	width:650px;  
 	height:230px;  
@@ -39,7 +38,6 @@ html {
 	background-color:#cccccc;
 	opacity:0.8;
 	filter:alpha(opacity=80);  
-	-moz-opacity:0.8;  
 }
 
 .name {
