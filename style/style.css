@@ -1,0 +1,56 @@
+html { 
+	background: url(/images/background.png) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+#container  
+{  
+} 
+
+#container .transparency  
+{  
+	opacity:0.8;
+	filter:alpha(opacity=80);  
+	-moz-opacity:0.8;  
+	background-color:#cccccc;
+	width:600px;  
+	height:250px;  
+	position:absolute;  
+	top:60%;  
+	left:0px;
+	z-index:-1;  
+}  
+
+.content  
+{  
+    width:600px;
+    height:250px;
+    position:absolute;
+    top:60%;
+    left:0px;
+    z-index:1;
+} 
+
+ul {
+	list-style-type: none;
+	height: 250px;
+	width: 600px;
+	margin: auto;
+}
+
+li {
+	margin-top: 15px;
+	float: left;
+}
+
+#project1 {
+	background-color: #000000;
+	background-image: url(/images/project1.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 25px;
+	width: 180px;
+	display: block;
+	line-height: 200px;
+}
