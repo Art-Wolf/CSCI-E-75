@@ -1,56 +1,125 @@
 html { 
-	background: url(/images/background.png) no-repeat center center fixed; 
+	background: url(../images/background.png) no-repeat center center fixed; 
 	background-size: cover;
 }
 
-#container  
-{  
+#container  {  
 } 
 
-#container .transparency  
-{  
+#container .transparency  {  
 	opacity:0.8;
 	filter:alpha(opacity=80);  
-	-moz-opacity:0.8;  
 	background-color:#cccccc;
-	width:600px;  
-	height:250px;  
+	width:650px;  
+	height:230px;  
 	position:absolute;  
 	top:60%;  
 	left:0px;
 	z-index:-1;  
 }  
 
-.content  
-{  
-	width:600px;
+.navbar  {  
+	width:640px;
 	height:250px;
 	position:absolute;
 	top:60%;
 	left:0px;
 	z-index:1;
+	float:left;
 } 
+
+
+.content {
+	margin-top: 20%;
+	margin-right: 2%;
+	float: right;
+	width: 600px;
+	padding: 20px;
+	background-color:#cccccc;
+	opacity:0.8;
+	filter:alpha(opacity=80);  
+}
+
+.name {
+	font: 30px Tahoma, Helvetica, Arial, Sans-Serif;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	float: left;
+	margin-top: 10%;
+	margin-left: -5%;
+}
 
 ul {
 	list-style-type: none;
 	height: 250px;
-	width: 600px;
+	width: 640px;
 	margin: auto;
 }
 
 li {
-	margin-top: 15px;
+	margin-top: 10px;
 	float: left;
 }
 
-#project1 {
-	background-color: #000000;
-	background-image: url(/images/project1.png);
-	background-size: 200px;
-	background-repeat: no-repeat;
-	background-position: right;
-	margin: 25px;
-	width: 180px;
-	display: block;
-	line-height: 200px;
+#navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
+
+#navigation li { 
+	float: left;
+}
+
+#navigation li a { 
+	text-indent: -999999px; 
+	overflow: hidden; 
+	display: block; 
+	height: 200px; 
+	margin: 5px;
+} 
+
+a#project1:link {
+	background-image: url(../images/project1.png); 
+	width: 149px; 
+}
+a#project1:hover { 
+	background-image: url(../images/project1-hover.png) 
+}
+
+a#project2:link {
+	background-image: url(../images/project2.png); 
+	width: 149px; 
+}
+
+a#project2:hover { 
+	background-image: url(../images/project2-hover.png) 
+}
+
+a#project3:link { 
+	background-image: url(../images/project3.png); 
+	width: 149px; 
+}
+
+a#project3:hover {
+	background-image: url(../images/project3-hover.png) 
+}
+
+a#project4:link { 
+	background-image: url(../images/project4.png); 
+	width: 149px; 
+}
+
+a#project4:hover { 
+	background-image: url(../images/project4-hover.png); 
+}
+
+.content h2 {
+	font: 18px Tahoma, Helvetica, Arial, Sans-Serif;
+	color: #fff;
+	text-shadow: 0px 2px 3px #555;
+}
+
